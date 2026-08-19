@@ -1,0 +1,130 @@
+html, body {
+    font-family: 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    min-height: 100vh;
+    font-size: 1.125rem;
+}
+
+.main-content {
+    flex: 1; /* Space the items equally */
+}
+
+.main-content h2 {
+    border-bottom: 4px solid #202020;
+}
+
+.sidebar-content {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 100%;
+    width: 90%;
+    height: auto;
+
+    background-color: #C1C1C1;
+    border: 1px solid #202020;
+
+    padding: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.sidebar-content th {
+    padding: 0.5rem;
+}
+
+.sidebar-content h2 {
+    border-bottom: 1px solid #202020;
+}
+
+.sidebar-content table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.sidebar-content tr {
+    text-align: center;
+}
+
+.top-content-wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    flex-direction: column-reverse;
+    align-items: center; /* Center image on mobile */
+
+    gap: 2.5rem;
+}
+
+.container {
+    max-width: 90%;
+    margin: 2.5rem auto;
+    padding: 2.5rem;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 2.5rem;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+}
+
+/* Style the labels (left column) */
+.info-label {
+    font-weight: bold;
+    padding: 0.25rem; /* Creates a clean gap between columns */
+    vertical-align: top;
+}
+
+.main-title {
+    display: flex;
+    justify-content: center;
+    background-color: #303030;
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+    text-align: center;
+    color: white;
+
+    border: 0.25rem solid white;
+    box-shadow:
+            0 0 0 0.5rem #303030,
+            0 0 0 1px black;
+}
+
+.special-text {
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+}
+
+/* Desktop properties */
+@media (min-width: 768px) {
+    .sidebar-content {
+        max-width: 60%;
+    }
+}
+
+/* Desktop properties */
+@media (min-width: 1024px) {
+    .top-content-wrapper {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .container {
+        max-width: 62.5%;
+    }
+
+    body {
+        font-size: 1rem;
+    }
+
+    .sidebar-content {
+        max-width: 30%;
+        font-size: 1rem;
+    }
+}

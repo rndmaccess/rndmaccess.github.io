@@ -21,7 +21,7 @@ html, body {
     flex-direction: column;
 
     max-width: 100%;
-    width: 90%;
+    width: 100%;
     height: auto;
 
     background-color: #C1C1C1;
@@ -52,7 +52,7 @@ html, body {
     display: flex;
     justify-content: space-between;
 
-    flex-direction: column-reverse;
+    flex-direction: column;
     align-items: center; /* Center image on mobile */
 
     gap: 2.5rem;

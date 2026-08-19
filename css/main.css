@@ -12,6 +12,10 @@ html, body {
     border-bottom: 4px solid #202020;
 }
 
+.info {
+    text-align: center;
+}
+
 .sidebar-content {
     display: flex;
     flex-direction: column;

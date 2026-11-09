@@ -1,3 +1,3 @@
-# Read My CS Resume
+# Main Website
 
-Link to my Resume: [https://rndmaccess.github.io/](https://rndmaccess.github.io/)
+Link to my website: [https://rndmaccess.github.io/](https://rndmaccess.github.io/)
